@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="218.0" prefWidth="357.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Text layoutX="12.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enemy?" wrappingWidth="343.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="playerApproachesRadio" layoutX="14.0" layoutY="32.0" mnemonicParsing="false" text="Player Approaches" />
+      <RadioButton fx:id="playerRunsRadio" layoutX="184.0" layoutY="32.0" mnemonicParsing="false" text="Player Runs" />
+      <RadioButton fx:id="healthLowRadio" layoutX="113.0" layoutY="88.0" mnemonicParsing="false" text="Low" />
+      <RadioButton fx:id="healthFullRadio" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" text="Full" />
+      <Text layoutX="12.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health?" wrappingWidth="343.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="ammoLowRadio" layoutX="113.0" layoutY="147.0" mnemonicParsing="false" text="Low" />
+      <RadioButton fx:id="ammoFullRadio" layoutX="14.0" layoutY="147.0" mnemonicParsing="false" text="Full" />
+      <Text layoutX="12.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ammo?" wrappingWidth="343.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="104.0" layoutY="184.0" mnemonicParsing="false" onAction="#Action" prefHeight="25.0" prefWidth="150.0" text="Action" />
+      <RadioButton fx:id="healthNoRadio" layoutX="204.0" layoutY="88.0" mnemonicParsing="false" text="No" />
+   </children>
+</AnchorPane>
